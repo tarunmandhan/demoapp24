@@ -9,12 +9,13 @@ const App = () => {
   });
 
   const inputEvent = (event) => {
-    console.log(event.target.value);
-    console.log(event.target.name);
+    
+    // console.log(event.target.value);
+    // console.log(event.target.name);
 
     // const value = event.target.value;
     // const name = event.target.name;
-
+ 
     const { value, name } = event.target;
 
     setFullName((preValue) => {
